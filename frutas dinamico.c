@@ -20,7 +20,7 @@ int main(void){
         exit(1);
     }
     for(linha = 0; linha<qntfrutas; linha++){
-        scanf("%[^\n]",frutas[linha]);
+        scanf("%[^\n]s",frutas[linha]);
         scanf("%f", &preco[linha]);
     }
 
